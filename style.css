@@ -75,7 +75,7 @@ color: #FFFFFF;
 }
 /* main */
 .hero_section{
-    background-image: url(../Alivio-project1/BG.jpg);
+    background-image: url(./Alivio-project1/BG.jpg);
     background-repeat: no-repeat;
     height: 850px;
     background-size: cover;
