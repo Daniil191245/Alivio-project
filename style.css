@@ -15,6 +15,11 @@ a{
 ul,ol{
     list-style: none;
 }
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
 /*----------- header--------- */
 .header-nav{
     display: flex;
@@ -23,7 +28,6 @@ ul,ol{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0;
-    /* margin-left: 120px; */
 }
 
 .item12{
@@ -31,14 +35,11 @@ ul,ol{
     display: flex;
     flex-direction: row;
     gap: 70px;
-/* margin-right: 70px; */
-    /* gap: 70px; */
 }
 .item12>li:last-child{
     padding-left: 275px;
 }
 .heading_Alivio{
-    
 font-family: 'Lato';
 font-style: normal;
 font-weight: 900;
@@ -54,7 +55,6 @@ font-size: 20px;
 line-height: 24px;
 color: #292929;
 }
-
 .button1{
     width: 180px;
     height: 45px;
@@ -82,11 +82,6 @@ color: #FFFFFF;
 background-position: bottom;
 padding: 175px 0px 30px 0px;
 
-}
-.container-hero_section{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0;
 }
 .name{
     width: 440px;
@@ -142,11 +137,6 @@ color: #FFFFFF;
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px 30px;
-}
 .how{
 width: 141px;
 height: 38px;
@@ -182,23 +172,14 @@ font-weight: 500;
 font-size: 20px;
 line-height: 150%;
 padding: 7px 0px 10px 136px;
-/* padding-left: 136px;
-padding-top: 45px; */
-/* padding: 45px 0px 10px 136px; */
 color: #424242;
 }
-
-
-/* Йдемо далі стилювати */
 /* -------------Section hero стилювання карточек--------------- */
 
 /* --------------one cards-------------- */
 
 .style-cards{
     display: flex;
-    /* padding-right: 90px; */
-    /* margin-right: 1800px; */
-    /* gap: 90px; */
 }
 .card-one{
     padding-right: 90px;
@@ -295,13 +276,7 @@ margin-bottom: 60px;
 color: #424242;
 
 }
-
-/* ТРЕБА ЩЕ РОЗІБРАТИ СТИЛЮВАННЯ  ПІДВАЛУ САЙТУ  ТА СЕКЦІЇ ГЕРОЙ */
-
-
 /* --------Продовження стилювання секції герой ----------------*/
-/* --------------------Питання до відео -------------- */
-
 .section_green{
     background-color: #245852;
     height: 800px;
@@ -344,7 +319,6 @@ height: 70px;
 background: #01996D;
 border-radius: 4px;
 border: none;
-
 }
 .Lets_3{
     font-family: 'Lato';
@@ -361,12 +335,6 @@ border-radius: 20px;
 }
 
 /* -------------Продовження стилювання----------- */
-
-.container-section-card{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0;
-}
 .card-information{
     display: flex;
     background-color: #FFF;
@@ -487,11 +455,6 @@ margin: 0px 0px 16px 61px;
 height: 654px;
 background: #245852;
 padding: 95px 0px 60px 0px;
-}
-.container-footer{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0;
 }
 .heading5{
     font-family: 'Avenir';
